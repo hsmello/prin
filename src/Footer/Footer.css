@@ -1,0 +1,66 @@
+.footer {
+    overflow: auto;
+    height: 440px;
+}
+.footer a {
+    text-decoration: none;
+    transition: text-decoration 9s linear;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.HeaderFR {
+    height: 40px;
+    opacity: 0.8;
+    background-color: #232F3E;
+}
+
+.footerBlockTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.FirstFR {
+    height: 330px;
+    /* background-color: rgb(148, 176, 236); */
+    display: flex;
+    background-color: #232F3E;
+    opacity: 0.9;
+    color: white;
+    padding: 20px 0 0 50px;
+}
+
+.footerBlock {
+    width: 300px;
+    height: 300;
+    position: relative;
+    right: 0;
+}
+.footerBlock a {
+    font-size: 17px;
+    line-height: 1.8;
+    color: white;
+}
+
+.SecondFR {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    background-color: #131A22;
+    border-top: 1px solid #666970;
+}
+.SecondFR, .SecondFR a {
+    color: white;
+}
+.footerTerms {
+    padding-left: 5px;
+}
+
+@media (max-width: 769px) {
+    .footerBlock {
+        display: none;
+    }
+}

@@ -1,0 +1,58 @@
+.homePanel {
+    background-color: rgb(36, 83, 138);
+    background-image: url(../../Images/home-cover.jpg);
+    height: 400px;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
+.panelTextGroup {
+    padding: 30px 0 0 30px;
+}
+.panelText {
+    color: white;
+    height: 50px;
+    font-weight: bold;
+}
+.homePanelTextOne {
+    font-size: 40px;
+}
+.homePanelTextTwo {
+    font-size: 30px;
+}
+
+.homeBlocks {
+    height: 320px;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    top: 350px;
+    display: flex;
+    margin: auto;
+}
+.homeBlockOne, .homeBlockTwo, .homeBlockThree {
+    height: 100%;
+    width: 350px;
+    background-color: rgb(192, 192, 192);
+    position: relative;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 1135px) {
+    .homeBlockThree {
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    .homeBlockTwo {
+        display: none;
+    }
+}
+
+/* HOME PRODUCTS */
+.homeProducts {
+    height: 300px;
+    width: 90%;
+    margin: 250px auto;
+    background-color: rgb(218, 184, 73);
+}

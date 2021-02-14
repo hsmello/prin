@@ -1,0 +1,29 @@
+.dashboardStoreNameBlock {
+    display: flex;
+}
+.coverUploadBlock {
+    padding: 20px 0px 20px 50px;
+}
+.storeLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.storeLinkShow {
+    margin-bottom: 5px;
+    width: 320px;
+}
+.storeLinkButton {
+    margin-left: 0px;
+}
+
+.dashboardBottomBlock {
+    /* width: 400px; */
+    display: flex;
+}
+
+
+.dashboardStoreInput {
+    display: flex;
+    position: relative;
+}

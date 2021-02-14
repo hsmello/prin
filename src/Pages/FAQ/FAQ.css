@@ -1,0 +1,14 @@
+.faqTitle {
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.faqQuestions {
+    width: 70%;
+    margin: 0px auto 20px;
+}
+

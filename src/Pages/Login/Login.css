@@ -1,0 +1,18 @@
+.loginCredentials {
+    display: flex;
+    margin: auto;
+    width: 500px;
+}
+
+.loginCredentialsBlocks {
+    padding: 0 30px;
+}
+
+
+.loginSocialMedia {
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
